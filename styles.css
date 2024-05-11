@@ -2,13 +2,13 @@
 
 @font-face{
     font-family: 'RobotoBlack';
-    src: url(/asset/fonts/Roboto-Black.ttf);
+    src: url(Roboto-Black.ttf);
 }
 
 
 @font-face{
     font-family: 'RobotoMedium';
-    src: url(/asset/fonts/Roboto-Medium.ttf);
+    src: url(Roboto-Medium.ttf);
 }
 
 header{
@@ -72,7 +72,7 @@ body{
 }
 
 .primal-section{
-    background-image: url(/asset/img/bg/home-modern-and-patio-out--long-angule-night-sky.png);
+    background-image: url(home-modern-and-patio-out--long-angule-night-sky.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
