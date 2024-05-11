@@ -1,0 +1,231 @@
+/*Hoja de estilos*/
+
+@font-face{
+    font-family: 'RobotoBlack';
+    src: url(/asset/fonts/Roboto-Black.ttf);
+}
+
+
+@font-face{
+    font-family: 'RobotoMedium';
+    src: url(/asset/fonts/Roboto-Medium.ttf);
+}
+
+header{
+    display:flex;
+    min-height:110px;
+    background: linear-gradient(to top, rgb(180, 180, 180), 10%, #EBEFF1, 60%, #EBEFF1);
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+
+.logo{ 
+    display:flex;
+    margin-left:90px;
+}
+
+.logo img{
+    height:100px;
+    margin:auto;
+    /*
+    background: #52028a;
+    */
+}
+
+.nombre-empresa {
+font-family: 'RobotoBlack';
+font-size: 40px;
+  text-align: center;
+  margin:40px;
+  position: relative;
+  right:40px;
+  text-decoration: none;
+  color:#315485;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    font-family:'RobotoMedium';
+    font-size:20px;    
+}
+
+nav a{
+    color: rgb(103, 103, 248);
+    margin:10px;
+    font-weight: 600;
+    padding-right:50px;
+}
+
+
+nav a:hover{
+    color:rgb(145, 145, 145);
+}
+
+body{
+    margin:0;
+}
+
+.primal-section{
+    background-image: url(/asset/img/bg/home-modern-and-patio-out--long-angule-night-sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:155px;
+    padding-bottom:155px;
+    display:block;
+    margin:Auto;
+    font-family:'RobotoMedium';
+    
+ 
+}
+
+.primal-section h1{
+    color:white;
+    font-size:65px;
+    margin:10px;
+    margin-left:100px;
+    width:440px;
+}
+
+.primal-section strong{
+    color:white;
+    margin-left:100px;
+}
+
+.primal-section a{
+    color: #4383CC;
+    text-decoration: none;
+    font-size:25px;
+    background: #EBEFF1;
+    padding:15px;
+    padding-left:30px;
+    padding-right:30px;
+    position:relative;
+    margin-left:100px;
+    top:30px;
+}
+
+.primalcontent{
+    margin-top: 200px;
+}
+/*/// Contenido de las cajas azules/// */
+
+.content-view-primal{
+    font-family:'RobotoMedium';
+    background: #EBEFF1;
+    display:flex;
+    place-content: center;
+}
+
+.content-view-primal div{
+    background:#315485;
+     height:300px;
+     width:400px;
+     margin:3px;
+     margin-bottom:30px;
+     margin-top:30px;
+     display:block;
+ }
+
+ .content-view-primal a{
+   text-align: center;
+   background:#EBEFF1;
+   text-decoration: none;
+   color:#315485;
+   display:flex;
+   place-content: center;
+   padding:10px;
+   margin-left: 50%;
+   display: inline-block;
+   transform: translateX(-50%);
+ }
+
+ .content-view-primal img{
+    width:70px;
+    margin-left: 50%;
+    display: inline-block;
+    margin-top:70px;
+    transform: translateX(-50%);
+ }
+
+
+ .content-view-primal p{
+    text-align:center;
+    color:white;
+ }
+ 
+ 
+ .content-view-primal div:first-child{
+     background: #315485;
+ }
+ 
+ .content-view-primal div:nth-child(2){
+     background: #4383CC;
+ }
+
+ /*////Media/////*/
+
+ @media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 10px;
+    }
+}
+
+
+
+@media (max-width:1000px){
+    .primal-section h1{
+        font-size:45px;
+        text-align: center;
+        margin-left:0;
+        width:auto;
+    }
+
+    .primal-section strong{
+        font-size:15px;
+        text-align: center;
+    }
+    .header a:nth-child(3){
+        visibility: none;
+    }
+    
+}
+
+
+@media (max-width:700px){
+    .primal-section h1{
+        font-size:45px;
+        text-align: center;
+        margin-left:0;
+
+    }
+
+    .content-view-primal{
+        display:grid;
+    }
+    .primal-section a{
+        display:flex;
+        place-content: center;
+        margin-left: 50%;
+        display: inline-block;
+        transform: translateX(-50%);
+    }
+
+
+}
+
+
+
+/*Author: David Contreras
+IG @seoywebtamar
+*/
